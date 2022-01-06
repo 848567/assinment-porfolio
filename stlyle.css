@@ -1,6 +1,27 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 h1{font-size: 50px;
     }
     .akash-color{ color: rgb(228, 52, 39);}
+    section{display: flex;}
+    .half-width{
+        width: 50%;
+        padding: 5%;
+    }
+    .half-width img{
+        width: 60%; height: 80%;
+    }
+   .click-button{
+       text-decoration: none;
+        background-image: linear-gradient(red, orange);
+        padding: 10px 40px;
+        border-radius: 5px;
+        color: white;
+        font-weight: 900;
+   }
+   .top-banner{
+       background-image: url(images/person/top-banner.png);
+       background-repeat: no-repeat;
+   }
