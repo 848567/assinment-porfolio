@@ -5,7 +5,7 @@ body{
 h1{font-size: 50px;
     }
     .akash-color{ color: rgb(228, 52, 39);}
-    section{display: flex;}
+     .flexible-container{ display:flex}
     .half-width{
         width: 50%;
         padding: 5%;
@@ -25,3 +25,23 @@ h1{font-size: 50px;
        background-image: url(images/person/top-banner.png);
        background-repeat: no-repeat;
    }
+   .back1{  
+    background-image: url(images/illustrators/illustrator-1.png);
+    background-color: rgb(216, 198, 216);
+    text-align: left;
+    border-radius: 20px;
+    
+  }
+  .back2{
+    background-image: url(images/illustrators/illustrator-2.png);
+    background-color: rgb(99, 99, 62);
+    text-align: left;
+    border-radius: 20px;
+  } 
+  .back3{ background-image: url(images/illustrators/illustrator-3.png);
+  background-color: yellowgreen;
+   text-align: left;
+   border-radius: 20px;}
+ .pad{margin-left: 5%;
+      margin-right: 5%;}
+    #middle{text-align: center;}
